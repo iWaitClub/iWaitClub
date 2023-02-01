@@ -1,5 +1,30 @@
+@font-face {
+    font-family: caviarDreams;
+    src: url(/fonts/caviar_dreams);
+  }
+
+:root {
+    --color-primary-1: #3a547a;
+    --color-primary-2: #9dc0e8;
+    --color-primary-3: #6986ab;
+    --color-background: #393c41;
+    --color: #e2e2ee;
+}
+
 section.twitch-embed {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+section.twitch-embed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color);
+    font-family: caviarDreams, Times, 'Times New Roman', serif
 }
